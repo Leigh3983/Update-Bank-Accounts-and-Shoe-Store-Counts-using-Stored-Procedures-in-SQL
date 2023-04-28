@@ -1,0 +1,10 @@
+CALL TRANSACTION_JAMES;  -- Caller query for James
+
+SELECT * FROM BankAccounts;
+SELECT * FROM ShoeShop;
+
+
+CALL TRANSACTION_ROSE;  -- Caller query for Rose
+
+SELECT * FROM BankAccounts;
+SELECT * FROM ShoeShop;
