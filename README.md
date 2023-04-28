@@ -6,3 +6,5 @@ James buys 4 pairs of trainers from the shoe shop. His account balance is update
 
 Scenario 2: 
 Rose buys a pair of boots from the shoe shop. Her account balance is updated as well as the balance of the shoe shop. Then, she attempts to buy a pair of trainers from the shoe shop. However, her updated balance is $100, which is $200 less than the price of a pair of trainers, $300. Rose ha sinsufficient funds to purchase these shows and the whole transaction fails. Therefore, the transaction is rolled back when the stored procedure is called.
+
+Since iin both scenarios, the transaction fails and is rolled back, there is no change in the shoe shop stock count (as displayed in the ShoeShop table) or either of James' and Rose's bank account balances (as displayed in the BankAccounts table).
