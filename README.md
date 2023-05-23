@@ -1,4 +1,4 @@
-# Committing and Rolling Back a Transaction using a Stored Procedure to update Bank Accounts and Shoe Store Stock Counts
+# Update Bank Accounts and Shoe Store Stock Counts using Stored Procedures in SQL
 Using stored procedures to update both shoppers and shoe stores bank account balances as well as shoe stores stock count.
 
 Scenario 1:
